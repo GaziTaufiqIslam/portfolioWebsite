@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+html, body{
+    margin:0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background: url(images/sawyer-bengtson-256274.jpg) no-repeat center center;
+    background-size: cover;
+    margin: auto;
+    top:0;
+    
+}
+#header-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header .content{
+    padding: 21% 0;
+    text-align: center;
+}
+header .content h1{
+    font-family:'Raleway', sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0 0 300px #000;
+    font-size: 500%;
+}
+header .content h2{
+    font-family:'Raleway', sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0 0 300px #000;
+    font-size: 170%;
+    margin-top: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    max-width: 500px;
+    margin:0 auto;
+    text-align: center;
+    float:right;
+    
+}
+nav ul li{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 130%;
+    display: inline-block;
+    margin-top: 2%;
+    font-size: 30px;
+}
+nav ul li a{
+    color: #F9F3F4;
+    margin-right: 10px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #f4e1d2;
+}
+nav ul li a:focus{
+     text-decoration: none;
+     color: #f4e1d2;
+}
+#menu-icon{
+    display: hidden;
+    width: 30px;
+    height: 30px;
+    background: url(images/nav.png) center;
+    
+}
+
+/*----END HEADER STYLES-----*/
+
+/*-----START SECTION 1 STYLES------*/
+#sec-1{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: -16px;
+    top:0;
+    -moz-box-shadow:    inset 0px -6px 100px #000000;
+   -webkit-box-shadow: inset 0px -6px 100px #000000;
+   box-shadow:          0px -6px 100px #000000;
+}
+#inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-content{
+    padding: 9% 0;
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+    
+}
+#profile-pic{
+    float: left;
+    margin-top: 5%;
+    height: 250px;
+    width: 250px;
+}
+.section-content h1{
+    margin-top: 0px;
+    
+}
+.section-content p{
+   padding-left: 300px;
+ 
+}
+
+/*-----START SECTION 2 STYLES------*/
+#sec-2{
+    text-align: center;
+    background-color: aqua;
+}
+#sec-2 h1{
+    padding: 30px;
+}
+#inner-2{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#progress-report p{
+    text-align: center;
+}
+#progress-report ul{
+    list-style-type: none;
+    padding-left:0;
+}
+#progress-report ul li{
+    margin-top: 2%;
+}
+
+/*-----START SECTION 3 STYLES------*/
+#sec-3{
+    width: 100%;
+    background-color: red;
+    -moz-box-shadow:    inset 0px -6px 100px #000000;
+   -webkit-box-shadow: inset 0px -6px 100px #000000;
+   box-shadow:          0px -6px 100px #000000;
+}
+#inner-3{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: red;
+    padding-bottom: 170px;
+    padding-top: 60px;
+}
+
+#inner-3 p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+#Textarea-input{ 
+        width:35%;
+    }
+#alternate-email{
+    width: 50%;
+    float: left;
+    height: 150px;
+    padding-top: 4%;
+}
+#alternate-fb{
+    width: 50%;
+    float: right;
+    height: 150px;
+     padding-top: 4%;
+}
+#envelope-icon{
+    font-size: 300%;
+}
+#fb-icon{
+    font-size: 300%;
+}
+/*--------START FOOTER STYLES--------*/
+
+#inner-4{
+    max-width: 1200px;
+    margin:0 auto;
+    text-align: center;
+    height: 74px;
+}
+#inner-4 p{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+#inner-4 p i{
+    color: red;
+    font-size: 30px;
+}
+/*-----START MOBILE STYLES-----*/
+@media screen and (max-width: 700px){
+    nav ul li{
+        display: none;
+    }
+    #menu-icon{
+        display:block;
+        float:right;
+        margin: 5px;
+    }
+    header .content{
+        padding: 50% 0;
+    }
+    header .content h1{
+        font-size: 250%;
+    }
+    header .content h2{
+       font-size: 120%;    
+    }
+    .center{
+        height: 120px;
+        width: 120px;
+        margin:0 auto;
+        margin-top: 5%;
+        
+    }
+    #sec-1{
+        padding-top: 10px; 
+    }
+    #profile-pic{
+        height: 120px;
+        width: 120px;
+        margin-top: 0%;
+        border-radius: 50%;
+    }
+    .section-content h1{
+        margin-top: 0px;
+    }
+    .section-content p{
+        padding-left: 0px;
+        text-align: left;
+            
+    }
+    #inner-3 .quotation-mark{
+        font-size: 60px;   
+    }
+    #inner-3 .quote-text{
+        text-indent: 80px;
+        font-size: 20px;
+    }
+    #inner-3{
+        padding-bottom: 10px;
+        padding-top: 6px;
+
+    }
+    #inner-3 h1{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 180%;
+        padding-top: 30px;
+    }
+    #inner-3 #intro{
+        font-size: 15px;
+    }
+    #name-input{
+        width: 250%;
+        margin-left: -65px;
+    }
+    #email-input{
+        width: 250%;
+        margin-left: -65px;
+    }
+    #Textarea-input{ /*35%*/
+        width:70%;
+    }
+    #alternate-fb{
+       display: none;
+    }
+    #alternate-email{
+       display: none;
+    }
+    #alternate-info{
+        display: none;
+    }
+    #inner-4{
+        height:55px;
+        background-color: black;
+    }
+    #inner-4 p{
+    position: relative;
+    top: 12px;
+    font-size: 19px;
+    color:#fff;
+    }
+    #inner-4 p i{
+        color: red;
+        font-size: 19px;
+    }
+}
