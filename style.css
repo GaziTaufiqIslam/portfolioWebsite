@@ -50,6 +50,7 @@ nav ul li{
     display: inline-block;
     margin-top: 2%;
     font-size: 30px;
+    padding: 0 0.4rem;
 }
 nav ul li a{
     color: #F9F3F4;
@@ -75,6 +76,7 @@ nav ul li a:focus{
 
 /*-----START SECTION 1 STYLES------*/
 #sec-1{
+  color: #525252;
     width: 100%;
     background-color: #FFFFFF;
     margin-top: -16px;
@@ -110,6 +112,7 @@ nav ul li a:focus{
 
 /*-----START SECTION 2 STYLES------*/
 #sec-2{
+    color: #45281f;
     text-align: center;
     background-color: tan;
 }
