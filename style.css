@@ -11,7 +11,7 @@ header{
     background-size: cover;
     margin: auto;
     top:0;
-    
+
 }
 #header-inner{
     max-width: 1200px;
@@ -26,6 +26,7 @@ header .content h1{
     color: #F9F3F4;
     text-shadow: 0 0 300px #000;
     font-size: 500%;
+    text-shadow: 0px 0px 5px #323232;
 }
 header .content h2{
     font-family:'Raleway', sans-serif;
@@ -41,7 +42,7 @@ nav ul{
     margin:0 auto;
     text-align: center;
     float:right;
-    
+
 }
 nav ul li{
     font-family: 'Alegreya Sans', sans-serif;
@@ -67,7 +68,7 @@ nav ul li a:focus{
     width: 30px;
     height: 30px;
     background: url(images/nav.png) center;
-    
+
 }
 
 /*----END HEADER STYLES-----*/
@@ -90,7 +91,7 @@ nav ul li a:focus{
     padding: 9% 0;
     font-family:'Raleway', sans-serif;
     text-align: center;
-    
+
 }
 #profile-pic{
     float: left;
@@ -100,17 +101,17 @@ nav ul li a:focus{
 }
 .section-content h1{
     margin-top: 0px;
-    
+
 }
 .section-content p{
    padding-left: 300px;
- 
+
 }
 
 /*-----START SECTION 2 STYLES------*/
 #sec-2{
     text-align: center;
-    background-color: aqua;
+    background-color: tan;
 }
 #sec-2 h1{
     padding: 30px;
@@ -132,17 +133,18 @@ nav ul li a:focus{
 
 /*-----START SECTION 3 STYLES------*/
 #sec-3{
+  color: tan;
     width: 100%;
-    background-color: red;
-    -moz-box-shadow:    inset 0px -6px 100px #000000;
-   -webkit-box-shadow: inset 0px -6px 100px #000000;
-   box-shadow:          0px -6px 100px #000000;
+    background-color: #45281f;
+    -moz-box-shadow:    inset 0px -6px 50px sienna;
+   -webkit-box-shadow: inset 0px -6px 50px sienna;
+   box-shadow:          0px -6px 50px sienna;
 }
 #inner-3{
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    background-color: red;
+    background-color: #45281f;
     padding-bottom: 170px;
     padding-top: 60px;
 }
@@ -152,7 +154,7 @@ nav ul li a:focus{
     font-weight: bold;
     position: relative;
 }
-#Textarea-input{ 
+#Textarea-input{
         width:35%;
     }
 #alternate-email{
@@ -190,6 +192,13 @@ nav ul li a:focus{
     color: red;
     font-size: 30px;
 }
+
+/*---Gazi's Addition*/
+.btn-gzi{
+  background-color: #8F8068;
+  color: white;
+}
+
 /*-----START MOBILE STYLES-----*/
 @media screen and (max-width: 700px){
     nav ul li{
@@ -207,17 +216,17 @@ nav ul li a:focus{
         font-size: 250%;
     }
     header .content h2{
-       font-size: 120%;    
+       font-size: 120%;
     }
     .center{
         height: 120px;
         width: 120px;
         margin:0 auto;
         margin-top: 5%;
-        
+
     }
     #sec-1{
-        padding-top: 10px; 
+        padding-top: 10px;
     }
     #profile-pic{
         height: 120px;
@@ -231,10 +240,10 @@ nav ul li a:focus{
     .section-content p{
         padding-left: 0px;
         text-align: left;
-            
+
     }
     #inner-3 .quotation-mark{
-        font-size: 60px;   
+        font-size: 60px;
     }
     #inner-3 .quote-text{
         text-indent: 80px;
